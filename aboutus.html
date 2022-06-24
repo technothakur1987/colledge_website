@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colledge website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a980677539.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <section class="sub-header">
+       <nav class="navbar">
+         <a href="index.html"> <img class="logo" src="images/logo.png" alt="knowledgehub"></a>
+            
+           <div class="navlinks" id="navLinks" >
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+                 <ul class="ul">
+                    
+                
+        
+                   <li class="li1"><a href="index.html" class="a1">HOME</a></li>
+                   <li class="li2"><a href="aboutus.html" class="a2">ABOUT</a></li>
+                   <li class="li3"><a href="course.html" class="a3">COURSE</a></li>
+                   <li class="li4"><a href="blog.html" class="a4">BLOG</a></li>
+                   <li class="li5"><a href="contactus.html" class="a5">CONTACT</a></li>
+                 </ul>
+               
+               
+           </div> 
+           
+           </div>
+           
+           
+           
+           <i class="fas fa-bars" onclick="showMenu()"></i>      
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!--javascript for toggle bar-->
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+          navLinks.style.right = "-38vw";
+        }
+    </script>
+
+
+
+<!--this is about us section-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We Are The World's Largest University</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus soluta hic similique ut, provident laborum, quo consequatur suscipit voluptatum enim a animi ex dolore?</p>
+            <a href="" class="hero-btn btn1">Explore Here!</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+    
+    <!--this is footer section-->
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ipsa eveniet animi doloremque necessitatibus sit voluptatesLorem ipsum dolor sit<br> amet consectetur adipisicing elit. Ullam dignissimos accusamus sapiente culpa.</p>
+      <div class="icon">
+        <i class="fab fa-facebook-f"></i>&nbsp&nbsp
+        <i class="fab fa-instagram"></i>&nbsp&nbsp
+        <i class="fab fa-twitter"></i>&nbsp&nbsp
+        <i class="fab fa-linkedin-in"></i>
+
+      </div>
+      <p>Made With <i class="far fa-heart"></i> by Vikram Bais </p>
+    </section>
+  
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colledge website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a980677539.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+    <section class="sub-header">
+       <nav class="navbar">
+         <a href="index.html"> <img class="logo" src="images/logo.png" alt="knowledgehub"></a>
+            
+           <div class="navlinks" id="navLinks" >
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+                 <ul class="ul">
+                    
+                
+        
+                   <li class="li1"><a href="index.html" class="a1">HOME</a></li>
+                   <li class="li2"><a href="aboutus.html" class="a2">ABOUT</a></li>
+                   <li class="li3"><a href="course.html" class="a3">COURSE</a></li>
+                   <li class="li4"><a href="blog.html" class="a4">BLOG</a></li>
+                   <li class="li5"><a href="contactus.html" class="a5">CONTACT</a></li>
+                 </ul>
+               
+               
+           </div> 
+           
+           </div>
+           
+           
+           
+           <i class="fas fa-bars" onclick="showMenu()"></i>      
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    <!--javascript for toggle bar-->
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+          navLinks.style.right = "0";
+
+        }
+        function hideMenu(){
+          navLinks.style.right = "-38vw";
+        }
+    </script>
+    
+
+      <!--this is blog page content-->
+      <section class="blog-content">
+          <div class="row">
+              <div class="blog-left">
+                  <img src="images/certificate.jpg">
+                  <h2>Our Certificate & Online Programs For 2021</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, dignissimos, enim dicta excepturi odio, in omnis dolorem deleniti accusamus cumque sit officiis blanditiis dolor quidem.</p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi hic fugit est dicta repudiandae? Qui earum veniam eum itaque possimus quas omnis ab libero quod quasi dicta dolorum quae nesciunt reiciendis, placeat quidem? Sint laborum et sapiente ducimus a aperiam reprehenderit facere labore voluptate totam repudiandae eaque aliquid minus officiis, accusantium quos maxime sequi necessitatibus corrupti illum perspiciatis alias? Eos est assumenda quam at eveniet.</p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni totam cumque ut a excepturi optio quasi quaerat necessitatibus corporis dignissimos. Reprehenderit ab explicabo praesentium ratione est repellendus recusandae officia itaque exercitationem pariatur. Error tenetur qui vel facilis voluptatum in sequi nihil harum, quidem nobis sapiente. Fugit ullam ad harum, quis expedita velit quasi repudiandae. Dolorem modi reprehenderit, ipsam odit impedit nesciunt nemo magni assumenda rem.</p><br>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores repudiandae tempore autem ullam minus numquam dolores, ipsa ut, magni facilis maiores culpa vitae laborum provident velit soluta fugiat et commodi illum molestiae consequatur deleniti! Repudiandae voluptas dolor quibusdam aspernatur rem architecto quis alias, blanditiis quam quaerat, quasi recusandae ab nostrum? Totam dolorum debitis eius eveniet officia, iste impedit illum expedita magni voluptatem unde laudantium? Iusto obcaecati expedita aspernatur hic nihil tempora repudiandae consequatur facilis sit ea laboriosam quis exercitationem sequi corrupti quisquam debitis dolor impedit aut maxime est, nisi excepturi natus perferendis?
+                  </p>
+                  <div class="comment-form">
+                      <h3>Leave A Reply!</h3>
+                      <input  type="text" placeholder="Enter Your name">
+                      <input type="email" placeholder="Enter your Email Id">
+                      <textarea placeholder="Comment Here . . . "></textarea>
+                      <button class="hero-btn btn1">Post Comment</button> 
+
+                  </div>
+              </div>
+              <div class="blog-right">
+                  <h3>Post Category</h3>
+                  <div>
+                      <span>Business Analytics</span>
+                      <span>12</span>
+                  </div>
+                  <div>
+                    <span>Data Science</span>
+                    <span>26</span>
+                  </div>
+                  <div>
+                    <span>Machine-Learning</span>
+                    <span>21</span>
+                  </div>
+                  <div>
+                    <span>Computer Science</span>
+                    <span>32</span>
+                  </div>
+                  <div>
+                    <span>AutoCad</span>
+                    <span>62</span>
+                  </div>
+                  <div>
+                    <span>Journalism</span>
+                    <span>23</span>
+                  </div>
+                  <div>
+                    <span>Commerce</span>
+                    <span>06</span>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+
+
+    
+    <!--this is footer section-->
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ipsa eveniet animi doloremque necessitatibus sit voluptatesLorem ipsum dolor sit<br> amet consectetur adipisicing elit. Ullam dignissimos accusamus sapiente culpa.</p>
+      <div class="icon">
+        <i class="fab fa-facebook-f"></i>&nbsp&nbsp
+        <i class="fab fa-instagram"></i>&nbsp&nbsp
+        <i class="fab fa-twitter"></i>&nbsp&nbsp
+        <i class="fab fa-linkedin-in"></i>
+
+      </div>
+      <p>Made With <i class="far fa-heart"></i> by Vikram Bais </p>
+    </section>
+  
+</body>
+</html>

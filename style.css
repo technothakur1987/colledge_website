@@ -1,0 +1,981 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    overflow: hidden;
+   
+    
+    
+   
+}
+.navbar
+{
+    height: 15vh;
+    width: 99.3vw;
+ /* background-color: white;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.logo
+{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 0.5vw;
+   /* opacity: .75;*/
+  /* background-color: chocolate;*/
+}
+.navlinks
+{
+    height: 15vh;
+    width: 82vw;
+  /* background-color: violet;*/
+  margin-left: .5vw;
+  display: flex;
+  flex-direction: row;
+    
+}
+/*.menuicon
+{
+    height: 10vh;
+    width: 2vw;
+    background-color: beige;
+ 
+    padding-top:5vh ;
+    padding-left: 1vh;
+    position: relative;
+    display: none;
+    
+}*/
+/*.closeicon
+{
+   background-color: yellow;
+   padding-top: 5vh;
+   display: none;
+   
+   
+   
+   
+   
+}*/
+
+.ul
+{
+    height: 15vh;
+    width: 83vw;
+    
+  /* background-color:turquoise;*/
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+    
+}
+
+
+.a1,.a2,.a3,.a4,.a5
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: bold ;
+
+}
+.a5:hover
+{
+    color:rgb(212, 36, 36);
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold; 
+}
+.a1:hover
+{
+    color:red;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold; 
+    
+}
+.a2:hover
+{
+    color:red;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold; 
+}
+.a3:hover
+{
+    color:red;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold; 
+}
+.a4:hover
+{
+    color:red;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: bold; 
+}
+
+.textbox
+{
+    height:67vh;
+    width:85vw ;
+  /*  background-color: seashell;*/
+    text-align: center;
+   margin-left: 15vw;
+   margin-top: 18vh;
+  /* color: white;*/
+}
+.textbox h1
+{
+    font-size: 55px;
+    font-weight: 900;
+    color: #111111;
+   
+}
+.textbox p
+{
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+}
+.hero-btn
+{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;;
+    background: transparent;
+    color: black;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 200;
+}
+.hero-btn:hover
+{
+    border: 1px solid red;
+    background: red;
+   color: white;
+    cursor: pointer;
+}
+.navbar .fas
+{
+    display: none;
+}
+.navbar .fas:hover
+{
+    cursor: pointer;
+}
+.navlinks .fas
+{
+    display: none;
+}
+.navlinks .fas:hover
+{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*css for course*/
+.course
+{
+  /* background-color: aqua;*/
+   width:80vw;
+   text-align: center;
+   margin-left: 10vw;
+   margin-top: 2vh;
+
+}
+.course h1
+{
+    font-size: 35px;
+    font-weight: 900;
+   
+}
+.course p
+{   
+    font-size: 15px;
+        font-weight: 300;
+    color:#777;
+    line-height: 22px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    justify-content: space-between;
+    
+    
+}
+
+.course-col
+{
+    flex-basis: 31%;
+    background-color:  lightpink;
+    ;
+    border-radius: 20px;
+    margin-bottom: 8vh;
+    padding: 20px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.course-col h3
+{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.course-col:hover
+{
+    box-shadow:12px 12px 2px 1px lightgray ;
+   
+}
+/* this is our gloal campus*/
+.campus
+{
+     width:80vw;
+     text-align: center;
+    /* background-color: chartreuse;*/
+     margin: auto;
+} 
+.campus h1
+{
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 15vh;
+} 
+.campus p
+{
+    font-size: 15px;
+        font-weight: 300;
+    color:#777;
+    line-height: 22px;
+    margin-top: 1vh;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    justify-content: space-between;
+    
+    
+}
+.campus-col
+{
+    
+    background-color: aqua;
+    height: 66vh;
+    width: 25vw;
+    overflow: hidden;
+    margin-bottom: 15vh;
+    border-radius: 15px ;
+    margin-left: 0vw;
+    
+}
+    
+    .campus-col img
+    {
+        height:66vh ;
+         width: 25vw;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-left: 0vw;
+        
+       
+    }
+    .layer
+    {
+        background-color: transparent;
+        opacity: 0.5;
+        height:67vh ;
+         width: 25vw;
+        overflow: hidden;
+        position: absolute;
+        margin-bottom: 14.0vh;
+        margin-top: -67vh;
+        transition: 0.5s;
+        border-radius: 15px;
+        margin-left: 0vw;
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        
+    }
+    .layer h2
+    {
+        color: black;
+        text-align: center;
+        margin-top:59.5vh ;
+        
+        margin-left: 0;
+        opacity: 0;
+        transition:0.5s;
+    }
+    .layer:hover
+    {
+        cursor: pointer;
+        background-color: lightpink;
+        opacity:0.75;
+    }
+    
+   .layer:hover h2
+    {
+        
+        transform: translateY(-30vh);
+        
+        color: black;
+        text-align: center;
+        margin-top:59.5vh ;
+        
+        margin-left: 0;
+        opacity: 100;
+        font-size: 900;
+        font-weight: 1600;
+       
+        
+    }
+    /*This is css for Facilities before media query */
+    .facilities
+    {
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+        padding: 1vh;
+    }
+    .facilities h1
+    {
+        font-size: 35px;
+        font-weight: 900;
+        
+    }
+    .facilities p
+    {
+        font-size: 15px;
+        font-weight: 300;
+    color:#777;
+    line-height: 22px;
+    margin-bottom: 5vh;
+    }
+    .facilities-col
+    {
+        flex-basis: 30%;
+        border-radius: 10px ;
+        text-align: left;
+        margin-bottom: 2vh;
+    }
+    .facilities-col img
+    {
+        width: 100%;
+       
+        border-radius: 10px ;
+    }
+    /*this is css for testimonial before css query */
+    .testimonial
+    {
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 2vh;
+        cursor: pointer;
+        
+    }
+    .testimonials-col
+    {
+        flex-basis: 40%;
+        border-radius: 15px;
+        text-align: left;
+        margin-bottom: 2vh;
+        background-color:  #ffe6ea;
+        opacity:1;
+    }
+    .testimonials-col img
+    {
+        width: 50px ;
+        height: 50px ;
+        border-radius: 100px ;
+        
+    }
+    .testimonials-col p
+    {
+        font-size: 15px;
+        font-weight: 300;
+    color:#777;
+    line-height: 22px;
+    margin-bottom: 5vh;
+    }
+    .testimonials-col h3
+    {
+        font-size: 18px;
+        font-weight:lighter; 
+    }
+
+    .testimonials h1
+    {
+        font-size: 35px;
+        font-weight: 900; 
+    }
+    .testimonials p
+    {
+        font-size: 15px;
+        font-weight: 300;
+    color:#777;
+    line-height: 22px;
+    margin-bottom: 5vh;
+    }
+    .testimonials-col .fas
+    {
+        color:coral;
+    }
+    /*this is css for call to action before media query */
+    .cta
+    {
+        width:80%;
+       height: 25vh;
+       
+        text-align: center;
+        background-image: url(images/banner2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        
+        border-radius: 10px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top:8vh;
+       margin-bottom: 3vh;
+       padding-top: 24vh;
+       filter: brightness(50%);
+       
+        
+    }
+    .cta h1
+    {
+        color:white;
+        font-size: 34px ;
+        margin-bottom: 5vh;
+        
+        
+    }
+    /*this is footer*/
+    .footer
+    {
+        width: 100%;
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .footer h3
+    {
+        font-size: 35px;
+        font-weight: 900; 
+        margin-top: 5vh;
+    }
+    .footer p
+    {
+        font-size: 15px;
+        font-weight: 300;
+    color:#777;
+    line-height: 22px;
+    margin-bottom: 5vh;
+    margin-top: 3vh; 
+    }
+    .icon .fab
+    {
+       color: red;
+       cursor: pointer;
+       
+    }
+    .fa-heart
+    {
+       color: red;
+       cursor: pointer;
+       
+    }
+
+
+@media screen and (max-width:800px )
+{
+    
+    .textbox h1
+    {
+        font-size: 23px;
+        font-weight: 700;
+        color: black;
+       
+    }
+    .textbox p
+    {
+        color: black;
+        font-size: medium;
+        font-weight: 300;
+    }
+    .navbar .fas
+    {
+        display: block;
+        color: black;
+        margin-top: 5vh;
+        
+
+    }
+    .navlinks
+    {
+        height: 185vh;
+        width: 38vw;
+       right:-38vw; 
+        background-color: yellow;
+        transform: translate(25vw);
+        transition: 0.10s;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        
+        
+    }
+    .navlinks .fas
+    {
+           color: white;
+           position: relative;
+           padding-top: 84vh;
+           padding-bottom: 2vh;
+           padding-left: 1vw;
+           padding-bottom: 0;
+           background-color: tomato;
+          
+           font-weight: 856;
+          
+    }
+    .navbar .fas
+    {
+        color: white;
+        font-size: 21px;
+        
+       
+        
+        
+    }
+    .ul
+    {
+        height: 185vh;
+        width: 37vw;
+      
+        background-color: tomato;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:left;
+        
+        
+    }
+    .li1
+    {
+        margin-top: 100vh;
+        margin-right: 20vw;
+        
+        
+    }
+    .li2
+    {
+        margin-top: 4vh;
+        margin-right: 20vw;
+    }
+    .li3
+    {
+        margin-top: 4vh;
+        margin-right: 19vw;
+    }
+    .li4
+    {
+        margin-top: 4vh;
+        margin-right: 20vw;
+    }
+    .li5
+    {
+        margin-top: 4vh;
+        margin-right: 18vw;
+        
+    }
+
+/*this is css for course after media query*/
+
+
+
+    .course
+{
+ /* background-color: aqua;*/
+   width:90vw;
+   height: 118vh;
+   margin-left:auto;
+   margin-right: auto;
+   
+
+}
+
+.course h1
+{
+    font-size: 25px ;
+    font-weight: 900;
+    text-align: center;
+   
+}
+.course p
+{   
+    font-size: 15px;
+        font-weight: 300;
+    color:#777;
+    line-height: 22px;
+    text-align: center  ;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    justify-content: space-between;
+    
+    
+}
+
+.course-col
+{
+    flex-basis: 30%;
+    background-color:  lightpink;
+    ;
+    border-radius: 20px;
+    margin-bottom: 8vh;
+    padding: 20px ;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.course-col h3
+{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.course-col:hover
+{
+    box-shadow:12px 12px 2px 1px lightgray ;
+   
+}
+
+/*this is css for campus after media query */
+
+    .campus
+    {
+        margin-top: 5%;
+    }
+    .campus-col
+    {
+        margin-left: 10vw;
+        width: 60vw;
+        height: 40vh;
+    }
+    .campus-col img
+    {
+        
+        width: 60vw;
+        height: 40vh;
+    }
+    .layer
+    {
+        width: 60vw;
+        height: 40vh;
+         margin-top: -40vh;
+    }
+    .layer:hover h2
+    {
+        
+        transform: translateY(-40vh);
+    }
+    /*this is cts after media query */
+    .cta h1
+    {
+        color:blue;
+        font-size: 23px ;
+        margin-bottom: 5vh;
+    }
+    
+} 
+/*ABOUT US PAGE */
+
+.sub-header
+{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.85;
+    overflow: hidden;
+    text-align: center;
+    color:white;
+   
+   
+}
+.sub-header h1
+{
+    margin-top: 6vh;
+    font-size: 40px;
+}
+.about-us
+{
+    width: 80vw;
+    margin: auto;
+}
+.about-col
+
+{
+    flex-basis: 45%;
+    margin-top: 2vh;
+}
+.about-col img
+{
+    width: 100%;
+}
+.about-col h1
+{
+    font-size: 19px;
+        font-weight: 700;
+        color: black;
+}
+
+.about-col p
+{
+    color: #777;
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.btn1
+{
+    border: 1px solid pink;
+    color:#777;
+    font-size: 20px ;
+    border-radius: 9px ;
+    margin-left: 2vh;
+
+}
+.btn1:hover
+{
+    background-color: pink;
+
+    border: 1px solid white;
+}
+/*course page css*/
+.blog-content
+{
+    width: 80vw;
+    margin: auto;
+}
+.blog-left
+{
+    flex-basis: 65%;
+    margin-top: 2vh;
+}
+.blog-left img
+{
+    width: 100%;
+}
+.blog-left p
+{
+    color: #777;
+    font-size: medium;
+    font-weight: 300;
+    
+}
+.blog-left h2
+{
+    margin-bottom: 2vh;
+    margin-top:2vh;
+}
+
+.blog-right
+{
+    flex-basis: 30%;
+    margin-top: 2vh;
+}
+.blog-right h3
+{
+    color: white;
+    background-color: palevioletred;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 24px ;
+    margin-bottom: 4vh;
+    border-radius: 2px ;
+}
+.blog-right div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh;
+    color:#777 ;
+    box-sizing: border-box;
+
+}
+.comment-form
+{
+    border: 1px solid gray;
+    margin-top: 5vh;
+    border-radius: 4px ;
+    padding: 0.5vh;
+}
+.comment-form h3
+{
+    text-align: left;
+    margin-bottom: 1vh;
+    padding-left: 1vh;
+}
+.comment-form input,.comment-form textarea
+{
+    width: 94%;
+    padding: 1vh;
+    margin: 2vh;
+    border: none;
+    outline: none;
+    background-color: pink;
+    border-radius: 7px ;
+    
+}
+@media screen and (max-width:800px )
+{
+    .sub-header h1
+    {
+        font-size: 25px ;
+        padding-top: 1vh;
+    }
+}
+
+
+/*this is contactus page ccs*/
+.location
+{
+    width: 80%;
+    margin: auto;
+}
+.location iframe
+{
+    width: 100%;
+    margin-top: 2vh;
+}
+.contactus
+{
+    width: 80%;
+    margin: auto;
+   /* background-color: aqua;*/
+    margin-bottom: 15vh;
+
+}
+.contact-col
+{
+   flex-basis: 48%;
+  /* background-color: red;*/  
+  border-radius: 5px ; 
+   
+
+}
+.contact-col div
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px ;
+   
+}
+.contact-col div h5,.contact-col div p
+{
+    margin-left: 15px;
+    font-size: larger;
+    color: gray;
+    
+}
+.contact-col div p
+{
+    margin-left: 15px;
+    font-size: medium;
+    color: gray;
+}
+
+
+
+
+
+.contact-col .fas
+{
+   color:red;
+}
+.contact-col input,.contact-col textarea
+{
+    width: 100%;
+    margin-bottom: 8px ;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    
+}
+@media screen and (max-width:800px )
+{
+    .contact-col
+    {
+        margin-bottom: 5vh;
+    }
+    .contact-col input,.contact-col textarea
+    {
+        margin-bottom: 15px
+    }
+}

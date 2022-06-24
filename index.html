@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colledge website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a980677539.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+  <section class="header">
+    <nav class="navbar">
+      <a href="index.html"> <img class="logo" src="images/logo.png" alt="knowledgehub"></a>
+
+      <div class="navlinks" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul class="ul">
+
+
+
+          <li class="li1"><a href="index.html" class="a1">HOME</a></li>
+          <li class="li2"><a href="aboutus.html" class="a2">ABOUT</a></li>
+          <li class="li3"><a href="course.html" class="a3">COURSE</a></li>
+          <li class="li4"><a href="blog.html" class="a4">BLOG</a></li>
+          <li class="li5"><a href="contactus.html" class="a5">CONTACT</a></li>
+        </ul>
+
+
+      </div>
+
+      </div>
+
+
+
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="textbox">
+      <h1>The World's Biggest University</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto et quis itaque consequatur ratione animi
+        voluptates eveniet<br> facere, molestiae optio commodi accusantium quidem esse doloribus!Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit.<br> Ea perspiciatis asperiores reprehenderit?</p><br><br>
+      <a href="" class="hero-btn">Visit Us To Know More !</a>
+    </div>
+  </section>
+  <!--javascript for toggle bar-->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.left = "0";
+
+    }
+    function hideMenu() {
+      navLinks.style.right = "-38vw";
+    }
+  </script>
+  <!--this is course-->
+  <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Diploma</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore voluptate eaque delectus deserunt sint
+          mollitia aliquam veritatis voluptates odit ut neque rem, laborum asperiores quasi fuga animi necessitatibus,
+          veniam nostrum architecto rerum est iste.</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore voluptate eaque delectus deserunt sint
+          mollitia aliquam veritatis voluptates odit ut neque rem, laborum asperiores quasi fuga animi necessitatibus,
+          veniam nostrum architecto rerum est iste.</p>
+      </div>
+      <div class="course-col">
+        <h3>Post-Graduate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolore voluptate eaque delectus deserunt sint
+          mollitia aliquam veritatis voluptates odit ut neque rem, laborum asperiores quasi fuga animi necessitatibus,
+          veniam nostrum architecto rerum est iste.</p>
+      </div>
+
+    </div>
+  </section>
+  <!--this is campus-->
+  <section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/london.png" alt="my colledge">
+        <div class="layer">
+          <h2>London</h2>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/newyork.png" alt="my colledge">
+        <div class="layer">
+          <h2>New York</h2>
+        </div>
+
+      </div>
+      <div class="campus-col">
+        <img src="images/washington.png" alt="my colledge">
+        <div class="layer">
+          <h2>Washington</h2>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--this is facilities section -->
+  <section class="facilities">
+    <h1> Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+
+    </p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/library.png">
+        <h2>World Class Library</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquam fugit consequuntur.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h2>Largest Play-Ground</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquam fugit consequuntur.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h2>Tasty and Healthy Food</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquam fugit consequuntur.</p>
+      </div>
+    </div>
+  </section>
+  <!--testimonial-->
+  <section class="testimonial">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquam fugit consequuntur.</p>
+    <div class="row">
+      <div class="testimonials-col">
+        <img src="images/user1.jpg">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquam fugit consequuntur.</p>
+          <h3>Rose Valley</h3>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+      <div class="testimonials-col">
+        <img src="images/user2.jpg">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit aliquam fugit consequuntur.</p>
+          <h3>Frank disuja</h3>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+  </section>
+  <!--Call To Action-->
+  <section class="cta">
+    <h1>Enroll For Our Various Courses<br> Anywhere From The World..</h1>
+    <a href="" class="hero-btn"> Contact Us!</a>
+  </section>
+  <!--this is footer section-->
+  <section class="footer">
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ipsa eveniet animi doloremque necessitatibus sit
+      voluptatesLorem ipsum dolor sit<br> amet consectetur adipisicing elit. Ullam dignissimos accusamus sapiente culpa.
+    </p>
+    <div class="icon">
+      <i class="fab fa-facebook-f"></i>&nbsp&nbsp
+      <i class="fab fa-instagram"></i>&nbsp&nbsp
+      <i class="fab fa-twitter"></i>&nbsp&nbsp
+      <i class="fab fa-linkedin-in"></i>
+
+    </div>
+    <p>Made With <i class="far fa-heart"></i> by Vikram Bais </p>
+  </section>
+
+</body>
+
+</html>
